@@ -10,5 +10,3 @@ The second stage will showcase how to build an application with multiple source 
 
 ### Stage 3
 The third stage showcases how to link multiple build directories by building multiple libraries in different packages and then connecting it up with the main application.
-
-in addtion to original example, I 
