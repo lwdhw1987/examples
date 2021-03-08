@@ -42,7 +42,7 @@ in addtion to the original example, I made 3 important changes:
 
 solutions:
 - use one of the repository functions in the bazel [WORKSPACE](https://github.com/lwdhw1987/examples/blob/master/cpp-tutorial/stage3/WORKSPACE) file to download Google Test / PyBind11 and make it available in your repository
-- depend on these external libraries with cc_* rules in bazel BUILD file
+- depend on these external libraries with cc_* rules in bazel [BUILD](https://github.com/lwdhw1987/examples/blob/master/cpp-tutorial/stage3/main/BUILD) file
 - Accessing Python libraries from C++ by python interpreter and Python C++ interface, see hello-world.cc for details
 
 ### WORKSPACE
