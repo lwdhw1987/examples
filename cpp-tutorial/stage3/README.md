@@ -34,3 +34,8 @@ bazel build //main:hello-world
 
 bazel build ///main:hello-world
 ```
+
+in addtion to original example, I made 4 important changes:
+- supporting gtest
+- supporting pybind11
+- embedding python interpreter in C++ and accessing Python libraries from C++ 
