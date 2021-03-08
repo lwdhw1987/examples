@@ -41,8 +41,8 @@ in addtion to the original example, I made 3 important changes:
 - embedding python interpreter in C++ and accessing Python libraries from C++ 
 
 solutions:
-- use one of the repository functions in the WORKSPACE file to download Google Test / PyBind11 and make it available in your repository
-- depend on these external libraries with cc_* rules in BUILD file
+- use one of the repository functions in the bazel [WORKSPACE](https://github.com/lwdhw1987/examples/blob/master/cpp-tutorial/stage3/WORKSPACE) file to download Google Test / PyBind11 and make it available in your repository
+- depend on these external libraries with cc_* rules in bazel BUILD file
 - Accessing Python libraries from C++ by python interpreter and Python C++ interface, see hello-world.cc for details
 
 ### WORKSPACE
